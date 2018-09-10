@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto');
+
+.fieldname {
+  color: #000000;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  line-height: 22px;
+  font-weight:bold;
+}
+
+label {
+  cursor: pointer;
+  color: #282828;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+}
+
+input.button{
+  height: 30px;
+  width: 150px;
+  font-size: 15px !important;
+  font-family: 'Roboto', sans-serif !important;
+  background-color: #eff0f1;
+  color: #000000;
+  padding: 0px 10px;
+  margin: 0px 15px 0px 5px;
+}
+
+input.text {
+  width: 150px;
+  height: 20px;
+  border: 1px solid #cccccc;
+  color: #000000;
+  padding: 5px;
+  background-color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  line-height: 120%;
+}
+
+checkbox.checkbox {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  line-height: 110%;
+}
+
+select.select {
+  width: 250px;
+  height: auto;
+  border: 1px solid #cccccc;
+  color: #000000;
+  padding: 5px;
+  background-color: #FFF;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  line-height: 110%;
+}
+
+textarea.textarea, textarea {
+  width: 250px;
+  height: 30px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+}
+
+
+.customTable .info, .customTable .success, .customTable .warning, .customTable .error, .customTable .validation {
+  background: none;
+  padding: inherit;
+  color: inherit;
+}
+.message.info, .message.success, .message.warning, .message.error, .message.validation {
+  font-size: 13px;
+  border: 1px solid;
+  margin: 5px 0px;
+  padding: 5px 10px;
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  font-weight: bold;
+}
+input.info {
+  border:1px solid #00529B;
+}
+.message.info {
+  color: #00529B;
+  background-color: #BDE5F8;
+  /*background-image: url('info.png');*/
+}
+input.success {
+  border: 1px solid #4F8A10;
+}
+select.time { width: 25px; }
+.message.success {
+  color: #4F8A10;
+  background-color: #66bb6a;
+  /*background-image:url('success.png');*/
+}
+input.warning {
+  border: 1px solid #9F6000;
+}
+.message.warning {
+  color: #9F6000;
+  background-color: #FEEFB3;
+  /*background-image: url('warning.png');*/
+}
+input.error {
+  border: 1px solid #D8000C;
+}
+.message.error {
+  color: #D8000C;
+  background-color: #FFBABA;
+  /*background-image: url('error.png');*/
+}
+
+.customTable {
+  border: none;
+}
+.customTable td {
+  padding: 4px 8px;
+  padding-left: 0px;
+  vertical-align: top;
+}
+.customTable label .mandatory {
+  color: red;
+  padding-left: 0.4em;
+}
+.customTable label .fieldname {
+  font-weight: bold;
+}
+.customTable .input {
+  padding-top: 10px;
+}
+
+.customTable .input.radiogroup input.radio,
+.customTable .input.checkboxes input.checkbox {
+  width:auto;
+}
+.customTable .input.dropdown .empty,
+.customTable .input.country .empty {
+  color:#AAA;
+}
+.customTable .input.dropdown option,
+.customTable .input.country option {
+  color:#000;
+}
+
+.customTable td {
+  min-width: 30%;
+}
+
+.customTable .button.submit {
+  padding: 0px 20px;
+  margin: 0px 15px 0px 5px;
+  width: 150px;
+  height: 30px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+}
+
+.customTable .input.checkboxes label {
+  display: block;
+}
+.customTable .input.checkboxes label.other {
+  display: block;
+}
+.customTable .input.radiogroup label.other input.text,
+.customTable .input.checkboxes label.other input.text {
+  display: block;
+}
+
+.captcha div{
+  font-size: 13px;
+}
+.captcha .text {
+  width: 118px;
+}
+.customTable .input.rating {
+  margin: 0px;
+  display: inherit;
+  clear: right;
+}
+
+.nav {
+  width: 100%;
+  text-align: center;
+  top: 10px;
+  position: relative;
+  color: #0051A2;
+}
+.nav a {
+  padding:0pt 5px;
+}
+
+.nav a.highlight {
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.interestbox {
+  width: 98%;
+  overflow: hidden;
+}
+a {
+  cursor: pointer;
+}
+.interestbox ul {
+  padding: 0;
+  margin: 0;
+  width: 250px;
+  float: left;
+  list-style: none;
+}
+.interestbox li {
+}
+.interestbox ul ul {
+  margin: 0 5px;
+  float: none;
+}
+.interestbox li li {
+  padding: 0 0 0 10px;
+  background: url(../../../../images/pd/subscriptions/blt.png) top left no-repeat;
+}
+.interestbox div {
+  display: none;
+}
+.interestbox .group img { margin-bottom: -2px; }

@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto');
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+label {
+    cursor: pointer;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 20px;
+}
+.layoutgrid {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+/*
+.layoutgrid td {
+
+    background-color:#ffffff;
+} */
+.formbody{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+.customTable td {
+    text-align:left;
+    background:transparent;
+}
+.fieldname {
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 20px;
+
+}
+.button {
+    background: none repeat scroll 0 0 #cccccc;
+    border: 2px solid #333333;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+
+}
+input, select {
+    width: 400px;
+    /*border: 1px solid #948270;*/
+    color: #333; /*padding: 1px;*/
+    background-color: #FFF;
+    color: #282828;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 120%;
+}
+input.text, select.select {
+    background-color: #FFFFFF;
+    color: #333333;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    width: 400px;
+}
+textarea.textarea, textarea {
+
+    width: 400px;
+    height: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+
+}
+.formWrapper {
+
+    margin:0 auto;
+
+}
+checkbox.checkbox {
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+select.select {
+    width: 400px;
+    height: auto;
+    border: 1px solid #cccccc;
+    color: #000000;
+    padding: 5px;
+    background-color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 110%;
+}
+
+.captcha div{
+    color: #ffffff;
+    font-size: 13px;
+}
+.captcha .text {
+
+    width: 118px;
+}
+input.button {
+    height: 30px;
+    width: 150px;
+    font-size: 14px !important;
+    font-family: 'Roboto', sans-serif !important;
+    background-color: #eff0f1;
+    color: #000000;
+    padding: 0px 10px;
+    margin: 0px 14px 0px 5px;
+}
